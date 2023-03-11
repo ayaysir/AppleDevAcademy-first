@@ -1,6 +1,6 @@
 //
-//  AppleDevAccademy_firstUITests.swift
-//  AppleDevAccademy-firstUITests
+//  AppleDevAcademy_firstUITests.swift
+//  AppleDevAcademy-firstUITests
 //
 //  Created by 윤범태 on 2023/03/06.
 //

@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		44A933D029B5966C00D8AD07 /* AppleDevAccademy_firstApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A933CF29B5966C00D8AD07 /* AppleDevAccademy_firstApp.swift */; };
+		44A933D029B5966C00D8AD07 /* AppleDevAcademy_firstApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A933CF29B5966C00D8AD07 /* AppleDevAcademy_firstApp.swift */; };
 		44A933D229B5966C00D8AD07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A933D129B5966C00D8AD07 /* ContentView.swift */; };
 		44A933D429B5966D00D8AD07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44A933D329B5966D00D8AD07 /* Assets.xcassets */; };
 		44A933D829B5966D00D8AD07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44A933D729B5966D00D8AD07 /* Preview Assets.xcassets */; };
-		44A933E229B5966D00D8AD07 /* AppleDevAccademy_firstTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A933E129B5966D00D8AD07 /* AppleDevAccademy_firstTests.swift */; };
-		44A933EC29B5966D00D8AD07 /* AppleDevAccademy_firstUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A933EB29B5966D00D8AD07 /* AppleDevAccademy_firstUITests.swift */; };
-		44A933EE29B5966D00D8AD07 /* AppleDevAccademy_firstUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A933ED29B5966D00D8AD07 /* AppleDevAccademy_firstUITestsLaunchTests.swift */; };
+		44A933E229B5966D00D8AD07 /* AppleDevAcademy_firstTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A933E129B5966D00D8AD07 /* AppleDevAcademy_firstTests.swift */; };
+		44A933EC29B5966D00D8AD07 /* AppleDevAcademy_firstUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A933EB29B5966D00D8AD07 /* AppleDevAcademy_firstUITests.swift */; };
+		44A933EE29B5966D00D8AD07 /* AppleDevAcademy_firstUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A933ED29B5966D00D8AD07 /* AppleDevAcademy_firstUITestsLaunchTests.swift */; };
+		44A9343829BC6C1B00D8AD07 /* SongQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A9343729BC6C1B00D8AD07 /* SongQuery.swift */; };
+		44A9343B29BCBFCC00D8AD07 /* MediaMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A9343A29BCBFCC00D8AD07 /* MediaMetadata.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,17 +36,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		44A933CC29B5966C00D8AD07 /* AppleDevAccademy-first.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleDevAccademy-first.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		44A933CF29B5966C00D8AD07 /* AppleDevAccademy_firstApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleDevAccademy_firstApp.swift; sourceTree = "<group>"; };
+		44A933CC29B5966C00D8AD07 /* AppleDevAcademy-first.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleDevAcademy-first.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A933CF29B5966C00D8AD07 /* AppleDevAcademy_firstApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleDevAcademy_firstApp.swift; sourceTree = "<group>"; };
 		44A933D129B5966C00D8AD07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		44A933D329B5966D00D8AD07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		44A933D529B5966D00D8AD07 /* AppleDevAccademy_first.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleDevAccademy_first.entitlements; sourceTree = "<group>"; };
+		44A933D529B5966D00D8AD07 /* AppleDevAcademy_first.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleDevAcademy_first.entitlements; sourceTree = "<group>"; };
 		44A933D729B5966D00D8AD07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		44A933DD29B5966D00D8AD07 /* AppleDevAccademy-firstTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppleDevAccademy-firstTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		44A933E129B5966D00D8AD07 /* AppleDevAccademy_firstTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleDevAccademy_firstTests.swift; sourceTree = "<group>"; };
-		44A933E729B5966D00D8AD07 /* AppleDevAccademy-firstUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppleDevAccademy-firstUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		44A933EB29B5966D00D8AD07 /* AppleDevAccademy_firstUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleDevAccademy_firstUITests.swift; sourceTree = "<group>"; };
-		44A933ED29B5966D00D8AD07 /* AppleDevAccademy_firstUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleDevAccademy_firstUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		44A933DD29B5966D00D8AD07 /* AppleDevAcademy-firstTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppleDevAcademy-firstTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A933E129B5966D00D8AD07 /* AppleDevAcademy_firstTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleDevAcademy_firstTests.swift; sourceTree = "<group>"; };
+		44A933E729B5966D00D8AD07 /* AppleDevAcademy-firstUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppleDevAcademy-firstUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A933EB29B5966D00D8AD07 /* AppleDevAcademy_firstUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleDevAcademy_firstUITests.swift; sourceTree = "<group>"; };
+		44A933ED29B5966D00D8AD07 /* AppleDevAcademy_firstUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleDevAcademy_firstUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		44A9343729BC6C1B00D8AD07 /* SongQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongQuery.swift; sourceTree = "<group>"; };
+		44A9343A29BCBFCC00D8AD07 /* MediaMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaMetadata.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +79,9 @@
 		44A933C329B5966B00D8AD07 = {
 			isa = PBXGroup;
 			children = (
-				44A933CE29B5966C00D8AD07 /* AppleDevAccademy-first */,
-				44A933E029B5966D00D8AD07 /* AppleDevAccademy-firstTests */,
-				44A933EA29B5966D00D8AD07 /* AppleDevAccademy-firstUITests */,
+				44A933CE29B5966C00D8AD07 /* AppleDevAcademy-first */,
+				44A933E029B5966D00D8AD07 /* AppleDevAcademy-firstTests */,
+				44A933EA29B5966D00D8AD07 /* AppleDevAcademy-firstUITests */,
 				44A933CD29B5966C00D8AD07 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,23 +89,25 @@
 		44A933CD29B5966C00D8AD07 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				44A933CC29B5966C00D8AD07 /* AppleDevAccademy-first.app */,
-				44A933DD29B5966D00D8AD07 /* AppleDevAccademy-firstTests.xctest */,
-				44A933E729B5966D00D8AD07 /* AppleDevAccademy-firstUITests.xctest */,
+				44A933CC29B5966C00D8AD07 /* AppleDevAcademy-first.app */,
+				44A933DD29B5966D00D8AD07 /* AppleDevAcademy-firstTests.xctest */,
+				44A933E729B5966D00D8AD07 /* AppleDevAcademy-firstUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		44A933CE29B5966C00D8AD07 /* AppleDevAccademy-first */ = {
+		44A933CE29B5966C00D8AD07 /* AppleDevAcademy-first */ = {
 			isa = PBXGroup;
 			children = (
-				44A933CF29B5966C00D8AD07 /* AppleDevAccademy_firstApp.swift */,
+				44A9343929BCBFBC00D8AD07 /* ValueObject */,
+				44A9343629BC6C1000D8AD07 /* Util */,
+				44A933CF29B5966C00D8AD07 /* AppleDevAcademy_firstApp.swift */,
 				44A933D129B5966C00D8AD07 /* ContentView.swift */,
 				44A933D329B5966D00D8AD07 /* Assets.xcassets */,
-				44A933D529B5966D00D8AD07 /* AppleDevAccademy_first.entitlements */,
+				44A933D529B5966D00D8AD07 /* AppleDevAcademy_first.entitlements */,
 				44A933D629B5966D00D8AD07 /* Preview Content */,
 			);
-			path = "AppleDevAccademy-first";
+			path = "AppleDevAcademy-first";
 			sourceTree = "<group>";
 		};
 		44A933D629B5966D00D8AD07 /* Preview Content */ = {
@@ -112,29 +118,45 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		44A933E029B5966D00D8AD07 /* AppleDevAccademy-firstTests */ = {
+		44A933E029B5966D00D8AD07 /* AppleDevAcademy-firstTests */ = {
 			isa = PBXGroup;
 			children = (
-				44A933E129B5966D00D8AD07 /* AppleDevAccademy_firstTests.swift */,
+				44A933E129B5966D00D8AD07 /* AppleDevAcademy_firstTests.swift */,
 			);
-			path = "AppleDevAccademy-firstTests";
+			path = "AppleDevAcademy-firstTests";
 			sourceTree = "<group>";
 		};
-		44A933EA29B5966D00D8AD07 /* AppleDevAccademy-firstUITests */ = {
+		44A933EA29B5966D00D8AD07 /* AppleDevAcademy-firstUITests */ = {
 			isa = PBXGroup;
 			children = (
-				44A933EB29B5966D00D8AD07 /* AppleDevAccademy_firstUITests.swift */,
-				44A933ED29B5966D00D8AD07 /* AppleDevAccademy_firstUITestsLaunchTests.swift */,
+				44A933EB29B5966D00D8AD07 /* AppleDevAcademy_firstUITests.swift */,
+				44A933ED29B5966D00D8AD07 /* AppleDevAcademy_firstUITestsLaunchTests.swift */,
 			);
-			path = "AppleDevAccademy-firstUITests";
+			path = "AppleDevAcademy-firstUITests";
+			sourceTree = "<group>";
+		};
+		44A9343629BC6C1000D8AD07 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				44A9343729BC6C1B00D8AD07 /* SongQuery.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		44A9343929BCBFBC00D8AD07 /* ValueObject */ = {
+			isa = PBXGroup;
+			children = (
+				44A9343A29BCBFCC00D8AD07 /* MediaMetadata.swift */,
+			);
+			path = ValueObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		44A933CB29B5966C00D8AD07 /* AppleDevAccademy-first */ = {
+		44A933CB29B5966C00D8AD07 /* AppleDevAcademy-first */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44A933F129B5966D00D8AD07 /* Build configuration list for PBXNativeTarget "AppleDevAccademy-first" */;
+			buildConfigurationList = 44A933F129B5966D00D8AD07 /* Build configuration list for PBXNativeTarget "AppleDevAcademy-first" */;
 			buildPhases = (
 				44A933C829B5966C00D8AD07 /* Sources */,
 				44A933C929B5966C00D8AD07 /* Frameworks */,
@@ -144,14 +166,14 @@
 			);
 			dependencies = (
 			);
-			name = "AppleDevAccademy-first";
+			name = "AppleDevAcademy-first";
 			productName = "AppleDevAccademy-first";
-			productReference = 44A933CC29B5966C00D8AD07 /* AppleDevAccademy-first.app */;
+			productReference = 44A933CC29B5966C00D8AD07 /* AppleDevAcademy-first.app */;
 			productType = "com.apple.product-type.application";
 		};
-		44A933DC29B5966D00D8AD07 /* AppleDevAccademy-firstTests */ = {
+		44A933DC29B5966D00D8AD07 /* AppleDevAcademy-firstTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44A933F429B5966D00D8AD07 /* Build configuration list for PBXNativeTarget "AppleDevAccademy-firstTests" */;
+			buildConfigurationList = 44A933F429B5966D00D8AD07 /* Build configuration list for PBXNativeTarget "AppleDevAcademy-firstTests" */;
 			buildPhases = (
 				44A933D929B5966D00D8AD07 /* Sources */,
 				44A933DA29B5966D00D8AD07 /* Frameworks */,
@@ -162,14 +184,14 @@
 			dependencies = (
 				44A933DF29B5966D00D8AD07 /* PBXTargetDependency */,
 			);
-			name = "AppleDevAccademy-firstTests";
+			name = "AppleDevAcademy-firstTests";
 			productName = "AppleDevAccademy-firstTests";
-			productReference = 44A933DD29B5966D00D8AD07 /* AppleDevAccademy-firstTests.xctest */;
+			productReference = 44A933DD29B5966D00D8AD07 /* AppleDevAcademy-firstTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		44A933E629B5966D00D8AD07 /* AppleDevAccademy-firstUITests */ = {
+		44A933E629B5966D00D8AD07 /* AppleDevAcademy-firstUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44A933F729B5966D00D8AD07 /* Build configuration list for PBXNativeTarget "AppleDevAccademy-firstUITests" */;
+			buildConfigurationList = 44A933F729B5966D00D8AD07 /* Build configuration list for PBXNativeTarget "AppleDevAcademy-firstUITests" */;
 			buildPhases = (
 				44A933E329B5966D00D8AD07 /* Sources */,
 				44A933E429B5966D00D8AD07 /* Frameworks */,
@@ -180,9 +202,9 @@
 			dependencies = (
 				44A933E929B5966D00D8AD07 /* PBXTargetDependency */,
 			);
-			name = "AppleDevAccademy-firstUITests";
+			name = "AppleDevAcademy-firstUITests";
 			productName = "AppleDevAccademy-firstUITests";
-			productReference = 44A933E729B5966D00D8AD07 /* AppleDevAccademy-firstUITests.xctest */;
+			productReference = 44A933E729B5966D00D8AD07 /* AppleDevAcademy-firstUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +230,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 44A933C729B5966B00D8AD07 /* Build configuration list for PBXProject "AppleDevAccademy-first" */;
+			buildConfigurationList = 44A933C729B5966B00D8AD07 /* Build configuration list for PBXProject "AppleDevAcademy-first" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -221,9 +243,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				44A933CB29B5966C00D8AD07 /* AppleDevAccademy-first */,
-				44A933DC29B5966D00D8AD07 /* AppleDevAccademy-firstTests */,
-				44A933E629B5966D00D8AD07 /* AppleDevAccademy-firstUITests */,
+				44A933CB29B5966C00D8AD07 /* AppleDevAcademy-first */,
+				44A933DC29B5966D00D8AD07 /* AppleDevAcademy-firstTests */,
+				44A933E629B5966D00D8AD07 /* AppleDevAcademy-firstUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,8 +281,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44A9343829BC6C1B00D8AD07 /* SongQuery.swift in Sources */,
 				44A933D229B5966C00D8AD07 /* ContentView.swift in Sources */,
-				44A933D029B5966C00D8AD07 /* AppleDevAccademy_firstApp.swift in Sources */,
+				44A933D029B5966C00D8AD07 /* AppleDevAcademy_firstApp.swift in Sources */,
+				44A9343B29BCBFCC00D8AD07 /* MediaMetadata.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44A933E229B5966D00D8AD07 /* AppleDevAccademy_firstTests.swift in Sources */,
+				44A933E229B5966D00D8AD07 /* AppleDevAcademy_firstTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +300,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44A933EC29B5966D00D8AD07 /* AppleDevAccademy_firstUITests.swift in Sources */,
-				44A933EE29B5966D00D8AD07 /* AppleDevAccademy_firstUITestsLaunchTests.swift in Sources */,
+				44A933EC29B5966D00D8AD07 /* AppleDevAcademy_firstUITests.swift in Sources */,
+				44A933EE29B5966D00D8AD07 /* AppleDevAcademy_firstUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +310,12 @@
 /* Begin PBXTargetDependency section */
 		44A933DF29B5966D00D8AD07 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 44A933CB29B5966C00D8AD07 /* AppleDevAccademy-first */;
+			target = 44A933CB29B5966C00D8AD07 /* AppleDevAcademy-first */;
 			targetProxy = 44A933DE29B5966D00D8AD07 /* PBXContainerItemProxy */;
 		};
 		44A933E929B5966D00D8AD07 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 44A933CB29B5966C00D8AD07 /* AppleDevAccademy-first */;
+			target = 44A933CB29B5966C00D8AD07 /* AppleDevAcademy-first */;
 			targetProxy = 44A933E829B5966D00D8AD07 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -411,14 +435,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "AppleDevAccademy-first/AppleDevAccademy_first.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "AppleDevAcademy-first/AppleDevAcademy_first.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AppleDevAccademy-first/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AppleDevAcademy-first/Preview Content\"";
 				DEVELOPMENT_TEAM = 6S2SA26VAN;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Get your music";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -434,7 +459,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bgsmm.AppleDevAccademy-first";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bgsmm.AppleDevAcademy-first";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -449,14 +474,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "AppleDevAccademy-first/AppleDevAccademy_first.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "AppleDevAcademy-first/AppleDevAcademy_first.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AppleDevAccademy-first/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AppleDevAcademy-first/Preview Content\"";
 				DEVELOPMENT_TEAM = 6S2SA26VAN;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Get your music";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -472,7 +498,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bgsmm.AppleDevAccademy-first";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bgsmm.AppleDevAcademy-first";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -501,7 +527,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleDevAccademy-first.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppleDevAccademy-first";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleDevAcademy-first.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppleDevAcademy-first";
 			};
 			name = Debug;
 		};
@@ -524,7 +550,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleDevAccademy-first.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppleDevAccademy-first";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleDevAcademy-first.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppleDevAcademy-first";
 			};
 			name = Release;
 		};
@@ -575,7 +601,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		44A933C729B5966B00D8AD07 /* Build configuration list for PBXProject "AppleDevAccademy-first" */ = {
+		44A933C729B5966B00D8AD07 /* Build configuration list for PBXProject "AppleDevAcademy-first" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44A933EF29B5966D00D8AD07 /* Debug */,
@@ -584,7 +610,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		44A933F129B5966D00D8AD07 /* Build configuration list for PBXNativeTarget "AppleDevAccademy-first" */ = {
+		44A933F129B5966D00D8AD07 /* Build configuration list for PBXNativeTarget "AppleDevAcademy-first" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44A933F229B5966D00D8AD07 /* Debug */,
@@ -593,7 +619,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		44A933F429B5966D00D8AD07 /* Build configuration list for PBXNativeTarget "AppleDevAccademy-firstTests" */ = {
+		44A933F429B5966D00D8AD07 /* Build configuration list for PBXNativeTarget "AppleDevAcademy-firstTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44A933F529B5966D00D8AD07 /* Debug */,
@@ -602,7 +628,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		44A933F729B5966D00D8AD07 /* Build configuration list for PBXNativeTarget "AppleDevAccademy-firstUITests" */ = {
+		44A933F729B5966D00D8AD07 /* Build configuration list for PBXNativeTarget "AppleDevAcademy-firstUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44A933F829B5966D00D8AD07 /* Debug */,
