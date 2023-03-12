@@ -13,4 +13,5 @@ struct MediaMetadata {
     let albumTitle: String
     let duration: TimeInterval
     let albumArtImage: UIImage?
+    let mediaFileURL: URL
 }

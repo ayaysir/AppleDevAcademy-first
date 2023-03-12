@@ -16,6 +16,9 @@
 		44A933EE29B5966D00D8AD07 /* AppleDevAcademy_firstUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A933ED29B5966D00D8AD07 /* AppleDevAcademy_firstUITestsLaunchTests.swift */; };
 		44A9343829BC6C1B00D8AD07 /* SongQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A9343729BC6C1B00D8AD07 /* SongQuery.swift */; };
 		44A9343B29BCBFCC00D8AD07 /* MediaMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A9343A29BCBFCC00D8AD07 /* MediaMetadata.swift */; };
+		44CE50C529BDE7B800EA092B /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CE50C429BDE7B800EA092B /* SoundManager.swift */; };
+		44CE50C829BDEF2B00EA092B /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 44CE50C729BDEF2B00EA092B /* AudioKit */; };
+		44CE50CC29BE16AD00EA092B /* URL+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CE50CB29BE16AD00EA092B /* URL+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		44A933ED29B5966D00D8AD07 /* AppleDevAcademy_firstUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleDevAcademy_firstUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		44A9343729BC6C1B00D8AD07 /* SongQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongQuery.swift; sourceTree = "<group>"; };
 		44A9343A29BCBFCC00D8AD07 /* MediaMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaMetadata.swift; sourceTree = "<group>"; };
+		44CE50C429BDE7B800EA092B /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		44CE50C929BDF26E00EA092B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		44CE50CB29BE16AD00EA092B /* URL+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44CE50C829BDEF2B00EA092B /* AudioKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +106,8 @@
 		44A933CE29B5966C00D8AD07 /* AppleDevAcademy-first */ = {
 			isa = PBXGroup;
 			children = (
+				44CE50CA29BE16A100EA092B /* Extension */,
+				44CE50C929BDF26E00EA092B /* Info.plist */,
 				44A9343929BCBFBC00D8AD07 /* ValueObject */,
 				44A9343629BC6C1000D8AD07 /* Util */,
 				44A933CF29B5966C00D8AD07 /* AppleDevAcademy_firstApp.swift */,
@@ -106,6 +115,7 @@
 				44A933D329B5966D00D8AD07 /* Assets.xcassets */,
 				44A933D529B5966D00D8AD07 /* AppleDevAcademy_first.entitlements */,
 				44A933D629B5966D00D8AD07 /* Preview Content */,
+				44CE50C429BDE7B800EA092B /* SoundManager.swift */,
 			);
 			path = "AppleDevAcademy-first";
 			sourceTree = "<group>";
@@ -151,6 +161,14 @@
 			path = ValueObject;
 			sourceTree = "<group>";
 		};
+		44CE50CA29BE16A100EA092B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				44CE50CB29BE16AD00EA092B /* URL+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,6 +185,9 @@
 			dependencies = (
 			);
 			name = "AppleDevAcademy-first";
+			packageProductDependencies = (
+				44CE50C729BDEF2B00EA092B /* AudioKit */,
+			);
 			productName = "AppleDevAccademy-first";
 			productReference = 44A933CC29B5966C00D8AD07 /* AppleDevAcademy-first.app */;
 			productType = "com.apple.product-type.application";
@@ -239,6 +260,9 @@
 				Base,
 			);
 			mainGroup = 44A933C329B5966B00D8AD07;
+			packageReferences = (
+				44CE50C629BDEF2B00EA092B /* XCRemoteSwiftPackageReference "AudioKit" */,
+			);
 			productRefGroup = 44A933CD29B5966C00D8AD07 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -281,6 +305,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44CE50C529BDE7B800EA092B /* SoundManager.swift in Sources */,
+				44CE50CC29BE16AD00EA092B /* URL+.swift in Sources */,
 				44A9343829BC6C1B00D8AD07 /* SongQuery.swift in Sources */,
 				44A933D229B5966C00D8AD07 /* ContentView.swift in Sources */,
 				44A933D029B5966C00D8AD07 /* AppleDevAcademy_firstApp.swift in Sources */,
@@ -443,6 +469,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AppleDevAcademy-first/Info.plist";
 				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Get your music";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -482,6 +509,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AppleDevAcademy-first/Info.plist";
 				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Get your music";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -638,6 +666,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		44CE50C629BDEF2B00EA092B /* XCRemoteSwiftPackageReference "AudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		44CE50C729BDEF2B00EA092B /* AudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44CE50C629BDEF2B00EA092B /* XCRemoteSwiftPackageReference "AudioKit" */;
+			productName = AudioKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 44A933C429B5966B00D8AD07 /* Project object */;
 }
